@@ -25,8 +25,8 @@ body {
 
 }
 
-.section-list,
-.list {
+.list,
+.lint {
   list-style: none;
 }
 
