@@ -45,6 +45,7 @@ body {
 
 .logo.link {
   text-decoration: none;
+  color: var(--primary-brand);
 }
 
 .studio {
@@ -68,6 +69,11 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
+}
+
+.nav-link link:hover,
+.nav-link link:focus {
+  color: var(--pressed-state);
 }
 
 .auth-nav .info,
