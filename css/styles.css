@@ -20,6 +20,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.header {
+  text-decoration: none
+}
+
 .section-list,
 .list {
   list-style: none;
@@ -86,7 +90,7 @@ info-link:focus {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-
+  background-color: var(--primary-brand);
 }
 
 .hero-button {
@@ -99,6 +103,8 @@ info-link:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  font-family: 'Raleway',
+    sans-serif;
 
 }
 
@@ -167,7 +173,7 @@ info-link:focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--primary-brand);
+  color: var(--dark);
   ;
 }
 
@@ -198,7 +204,6 @@ info-link:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04;
-
   color: var(--primary-brand);
   background-color: var(--light);
   cursor: pointer;
