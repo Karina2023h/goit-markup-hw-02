@@ -233,7 +233,7 @@ info-link:focus {
 .footer-text,
 .footer-studio {
   background-color: var(--dark);
-  color: var(--primary-brand);
+  color: var(--light);
 }
 
 .footer-logo.link {
