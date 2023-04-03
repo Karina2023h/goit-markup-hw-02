@@ -22,7 +22,7 @@ body {
 
 .header {
   text-decoration: none;
-
+  color: inherit;
 }
 
 .list,
@@ -106,7 +106,7 @@ info-link:focus {
 }
 
 .hero-button {
-  background-color: #4b5ae5;
+  background-color: var(--primary-brand);
   color: var(--white-background);
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
