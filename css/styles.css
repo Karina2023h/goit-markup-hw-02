@@ -175,6 +175,10 @@ info-link:focus {
 
 }
 
+.list-sec {
+  text-decoration: none;
+}
+
 .section-three {
   font-family: 'Roboto';
   font-style: normal;
@@ -243,6 +247,7 @@ info-link:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   columns: var(--text);
+  text-decoration: none;
 }
 
 /* footer */
