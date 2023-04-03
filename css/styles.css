@@ -69,6 +69,16 @@ body {
   font-size: 16px;
 }
 
+.auth-nav .info,
+.auth-nav .tel {
+  color: var(--text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .auth-nav,
 info-link:hover,
 .auth-nav,
@@ -90,7 +100,7 @@ info-link:focus {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  background-color: var(--primary-brand);
+  ;
 }
 
 .hero-button {
@@ -215,7 +225,6 @@ info-link:focus {
 .filter-button:focus {
   background-color: var(--pressed-state);
   color: var(--white-background);
-  font-family: 'Roboto', sans-serif;
 }
 
 .portfolio-type {
@@ -266,7 +275,7 @@ info-link:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-brand);
+  color: var(--light);
 }
 
 .link {
