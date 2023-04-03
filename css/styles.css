@@ -21,7 +21,8 @@ body {
 }
 
 .header {
-  text-decoration: none
+  text-decoration: none;
+
 }
 
 .section-list,
@@ -90,6 +91,7 @@ info-link:focus {
 /* hero */
 .hero {
   background-color: var(--hero-background);
+  font-family: 'Roboto', sans-serif;
 }
 
 .hero-title {
@@ -104,17 +106,16 @@ info-link:focus {
 }
 
 .hero-button {
-  background-color: var(--primary-brand);
+  background-color: #4b5ae5;
   color: var(--white-background);
   cursor: pointer;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  font-family: 'Raleway',
-    sans-serif;
+
 
 }
 
