@@ -30,7 +30,7 @@ body {
 }
 
 /* logo header */
-.logo-link {
+.logo link {
   color: var(--primary-brand);
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -42,7 +42,7 @@ body {
   text-decoration: none;
 }
 
-.logo-link {
+.logo link {
   text-decoration: none;
 }
 
