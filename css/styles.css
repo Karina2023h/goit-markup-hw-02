@@ -63,19 +63,20 @@ body {
   font-size: 16px;
 }
 
-.nav-link.link:hover,
-.nav-link.link:focus {
+.nav-link .link:hover,
+.nav-link .link:focus {
   color: var(--pressed-state);
 }
 
-.auth-nav.info-link,
-.auth-nav.info-link {
-  color: var(--text);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.auth-nav .info-link,
+{
+color: var(--text);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
 }
 
 .auth-nav,
