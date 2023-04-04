@@ -68,6 +68,11 @@ body {
   color: #404bbf;
 }
 
+.info-link.link:hover,
+.info-link.link:focus {
+  color: #404bbf
+}
+
 .auth-nav .info-link {
   color: var(--text);
   font-style: normal;
