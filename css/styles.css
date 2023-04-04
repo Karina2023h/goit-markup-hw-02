@@ -223,7 +223,12 @@ info-link:focus {
 }
 
 /* portfolio */
-.filter-button:hover,
+.filter-button:hover {
+  background-color: #404bbf;
+  color: var(--white-background);
+  text-decoration: none;
+}
+
 .filter-button:focus {
   background-color: #404bbf;
   color: var(--white-background);
