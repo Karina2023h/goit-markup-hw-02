@@ -78,9 +78,9 @@ body {
 }
 
 .auth-nav,
-info-link:hover,
+info-link.link:hover,
 .auth-nav,
-info-link:focus {
+info-link.link:focus {
   color: #404bbf;
   line-height: 1.5;
 }
