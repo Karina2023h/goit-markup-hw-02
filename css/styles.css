@@ -82,7 +82,7 @@ letter-spacing: 0.02em;
 info-link:hover,
 .auth-nav,
 info-link:focus {
-  color: var(--pressed-state);
+  color: #404bbf;
   line-height: 1.5;
 }
 
