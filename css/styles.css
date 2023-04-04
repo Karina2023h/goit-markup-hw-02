@@ -37,7 +37,7 @@ body {
   text-transform: uppercase;
   line-height: 1.17;
   text-decoration: none;
-  color: #4D5AE5;
+  color: #4b5ae5;
 }
 
 .studio {
@@ -68,14 +68,13 @@ body {
   color: #404bbf;
 }
 
-.auth-nav .info-link,
-{
-color: var(--text);
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+.auth-nav .info-link {
+  color: var(--text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav,
@@ -217,7 +216,7 @@ info-link:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--primary-brand);
+  color: #4d5ae5;
   background-color: var(--light);
   cursor: pointer;
 
@@ -257,7 +256,7 @@ info-link:focus {
 }
 
 .footer-logo.link {
-  color: var(--primary-brand);
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
