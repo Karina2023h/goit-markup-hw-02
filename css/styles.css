@@ -225,8 +225,9 @@ info-link:focus {
 /* portfolio */
 .filter-button:hover,
 .filter-button:focus {
-  background-color: var(--pressed-state);
+  background-color: #404bbf;
   color: var(--white-background);
+  text-decoration: none;
 }
 
 .portfolio-type {
