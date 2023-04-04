@@ -37,11 +37,11 @@ body {
   text-transform: uppercase;
   line-height: 1.17;
   text-decoration: none;
-  color: var(--primary-brand);
+  color: #4D5AE5;
 }
 
 .studio {
-  color: var(--dark);
+  color: #434455;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -65,7 +65,7 @@ body {
 
 .nav-link.link:hover,
 .nav-link.link:focus {
-  color: var(--pressed-state);
+  color: #404bbf;
 }
 
 .auth-nav .info-link,
