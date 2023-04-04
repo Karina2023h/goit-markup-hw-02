@@ -25,10 +25,7 @@ body {
   color: inherit;
 }
 
-.list,
-.link {
-  text-decoration: none;
-}
+
 
 /* logo header */
 .logo.link {
@@ -39,11 +36,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   line-height: 1.17;
-  text-decoration: none;
-  color: var(--primary-brand);
-}
-
-.logo.link {
   text-decoration: none;
   color: var(--primary-brand);
 }
