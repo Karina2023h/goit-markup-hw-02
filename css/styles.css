@@ -26,13 +26,12 @@ body {
 }
 
 .list,
-.lint {
-  list-style: none;
+.link {
+  text-decoration: none;
 }
 
 /* logo header */
 .logo.link {
-  color: var(--primary-brand);
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -41,6 +40,7 @@ body {
   text-transform: uppercase;
   line-height: 1.17;
   text-decoration: none;
+  color: var(--primary-brand);
 }
 
 .logo.link {
@@ -71,8 +71,8 @@ body {
   font-size: 16px;
 }
 
-.nav-link link:hover,
-.nav-link link:focus {
+.nav link link:hover,
+.nav link link:focus {
   color: var(--pressed-state);
 }
 
